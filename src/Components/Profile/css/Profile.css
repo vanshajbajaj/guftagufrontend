@@ -1,0 +1,459 @@
+#profilemain {
+
+    /* border:1px solid red; */
+    width: 92vw;
+    height: 86vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#pmleft {
+
+    width: 60%;
+    height: 95%;
+    /* border:1px solid yellow; */
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pmright {
+
+    width: 35%;
+    height: 95%;
+    /* border:1px solid yellow; */
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pmrform {
+
+    width: 85%;
+    height: 90%;
+    background-color: white;
+
+}
+
+#pmrhead {
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+
+}
+
+#pmrinpdiv {
+
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+#editpic {
+
+    width: 100%;
+    height: 20%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.edit-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.47);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* font-weight: bold; */
+    background-color: rgba(0, 0, 0, 0.105);
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#profilepic {
+
+    height: 85%;
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+    box-shadow: 0px 0px 2px 1px rgba(128, 128, 128, 0.164);
+
+}
+
+#pinphead {
+
+    width: 90%;
+    height: 12%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#pinpcontent {
+
+    width: 90%;
+    height: 28%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#pinptags {
+
+    width: 90%;
+    height: 12%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#pinpimg{
+
+    width: 90%;
+    height: 12%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#psubmit{
+
+    width: 90%;
+    height: 8%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#psbt{
+
+    width:28%;
+    height:75%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    /* border-radius: 4px; */
+
+}
+
+#psbt:hover{
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.452);
+}
+
+.pinplabel{
+
+    width:30%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    letter-spacing: 1px;
+    /* text-align: left; */
+
+}
+
+.pinpborder{
+
+    width:0.1%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+
+}
+
+.pinpinp{
+
+    width:68%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+}
+
+.pinptag{
+
+    width:99%;
+    height:99%;
+    text-align: center;
+    border:0px;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* overflow-wrap: normal; */
+    word-wrap: break-word;
+
+}
+
+.pinptag::placeholder{
+    color:rgba(128, 128, 128, 0.792)
+}
+
+#pallposts{
+
+    height:90%;
+    width:90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pallhead{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    /* border: 1px solid red; */
+
+}
+
+#palldiv{
+
+    width: 100%;
+    height:90%;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+#palldiv::-webkit-scrollbar {
+    display: none;
+}
+
+.ppostdiv{
+
+    width:95%;
+    margin: auto;
+    height:40%;
+    /* border: 2px solid yellow; */
+    /* border-bottom: 1px solid gray; */
+    /* border-top: 0.5px solid gray; */
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ppostcontent{
+
+    width:70%;
+    height:100%;
+    /* border:1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ppostimgdiv{
+
+    width:30%;
+    height:100%;
+    /* border:1px solid brown; */
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pimg{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.pcontenthead{
+
+    width:95%;
+    height:25%;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+
+.ppostuname{
+
+    font-size: 16px;
+    color: gray;
+    font-weight: 300;
+    margin-right: 3%;
+
+}
+
+.pcontentcontent{
+
+    width:95%;
+    height:40%;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(89, 89, 89);
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.pcontenttags{
+
+    width:95%;
+    height:25%;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-size: 22px; */
+    /* font-weight: 800; */
+
+}
+
+.tagstags{
+
+    height:100%;
+    width:40%;
+    /* border:1px solid green; */
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.pcontentdelete{
+
+    width:8%;
+    height:70%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: rgb(112, 112, 112);
+    border-radius: 2px;
+
+}
+
+.pcontentdelete:hover{
+    color: black;
+}
+
+.ptag{
+
+    width:40%;
+    height:70%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: rgb(188, 188, 188);
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.preactions{
+
+    width:25%;
+    height:80%;
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25%;
+
+}
+
+.preact{
+
+    width:22%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.loader{
+
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

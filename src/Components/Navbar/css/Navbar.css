@@ -1,0 +1,92 @@
+#nbdiv {
+
+    /* width: 98.9vw; */
+    width: 100vw;
+    margin: auto;
+    /* margin-top:8px; */
+    /* border-radius: 5px; */
+    height: 10vh;
+    /* border:1px solid red; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 5px 6px #92010145; */
+    margin-bottom: 5px;
+    /* position: fixed; */
+    /* margin-top:0px; */
+
+}
+
+#nbimgdiv {
+
+    width: 14%;
+    height: 85%;
+    /* border:2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    /* margin-left: 1%; */
+
+}
+
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
+
+#nblinksdiv {
+
+    width: 36%;
+    height: 100%;
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1%;
+
+}
+
+.nblink {
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nblink a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.nblink:hover {
+    background-color: #2b2b2d2c;
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* margin-top: 10vh; */
+  /* border:1px solid red; */
+  /* width:98.8vw; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: fixed;
+  background-image: url('./../public/nick-fewings-FKh5ARZOODI-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 50%;
+}
